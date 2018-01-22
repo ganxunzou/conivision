@@ -1,0 +1,122 @@
+﻿
+img{
+	height: auto;
+}
+a,a:hover,a:active{
+	color: #23527c;
+	text-decoration: none;
+}
+.col-xs-12,.col-xs-7{
+	padding-right: 0px;
+	padding-left: 0px;
+}
+.nav_header{
+	height: 44px;
+	padding: 10px 0;
+	background: #191919;
+	border-bottom: 1px solid #DADADC;
+	box-shadow: 0px 1px 6px #ccc;
+}
+/* @media only screen and (min-width: 700px) and (max-width: 1024px) {
+	.nav_header{
+		padding: 30px 0;
+	}
+	.header_right{
+		margin-right: 30px;
+	}
+
+} */
+.header_left{
+	float: left;
+	margin-left: 5px;
+}
+.header_right{
+	float: right;
+}
+.mui-pull img{
+	height: 22px;
+	vertical-align: middle;
+}
+.phone{
+	height: 13px !important;
+    margin-right: 2px;
+    margin-bottom: 2px;
+}
+.change,.change:hover {
+    color: #fff;
+    margin-right: 5px;
+}
+.nav_right{
+	max-width: 300px;
+	margin-top: 20px;
+	right: 0px;
+	left: inherit;
+	background: #444;
+	height: 350px;
+	overflow: auto;
+	border-radius: 5px;
+}
+.nav_right li{
+	padding: 17px 15px;
+    text-align: center;
+    vertical-align: top;
+	border-bottom: 1px solid #535353;
+}
+.nav_right li a{
+	font-size: 16px;
+	color: #fff;
+}
+
+/* content */
+.content_img img{
+	width: 100%;
+}
+/* service-two 服务与流程*/
+.service-banner, .quality-banner,.case-banner,.Coverch-banner,.join-us-banner,.about-us-banner{
+	margin-top: 42px;
+}
+.service-banner{
+}
+/* 质量与监督*/
+.quality-banner{
+
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+	.nav_header{
+		font-size: 26px;
+		padding: 30px 0;
+		height: 100px;
+	}
+	.header_right{
+		margin-right: 30px;
+	}
+	.service-banner, .quality-banner,.case-banner,.Coverch-banner,.join-us-banner,.about-us-banner{
+		margin-top: 90px;
+	}
+	.logo_left img{
+		width: 200px;
+    	height: 48px;
+	}
+	.nav_right{
+		height: 500px;
+	}
+	.nav_right li a{
+		font-size: 24px;
+	}
+	.phone{
+		vertical-align: middle;
+		height: 25px !important;
+	}
+	.mui-pull img{
+		margin-left: 10px;
+		height: 48px;
+	}
+	.swiper-container {
+	    margin-top: 90px !important;
+	}
+	.navbar-right img{
+		margin-top: -5px;
+	}
+
+}
