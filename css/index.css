@@ -2,7 +2,7 @@
 * @Author: Administrator
 * @Date:   2018-01-17 13:39:44
 * @Last Modified by:   Administrator
-* @Last Modified time: 2018-01-19 10:42:41
+* @Last Modified time: 2018-01-23 16:16:24
 */
 html, body, ul, li, span,  a, img,footer, header {
     margin: 0;
@@ -236,7 +236,7 @@ header{
 	width: 95%;
 	margin: 0 auto;
 	display: flex;
-  	justify-content: space-between;
+  	justify-content: space-around;
   	margin-bottom: 30px;
 }
 .case_img .last{
